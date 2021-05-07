@@ -1,0 +1,2 @@
+rootProject.name = "Clean Architecture Playground"
+include ':app'
