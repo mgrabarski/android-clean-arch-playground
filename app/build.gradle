@@ -46,6 +46,8 @@ dependencies {
     implementation AndroidDependencies.material
     implementation AndroidDependencies.constraintlayout
 
+    implementation LibrariesDependencies.jodaTime
+
     testImplementation UnitTestsDependencies.kotestRunner
     testImplementation UnitTestsDependencies.kotestFrameworkEngine
     testImplementation UnitTestsDependencies.kotestCore

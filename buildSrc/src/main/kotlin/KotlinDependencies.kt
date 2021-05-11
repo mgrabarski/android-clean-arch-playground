@@ -14,10 +14,15 @@ object Versions {
     val materialComponents = "1.3.0"
     val constraintlayout = "2.0.4"
     val kotest = "4.4.3"
+    val jodaTime = "2.10.10"
 }
 
 object KotlinDependencies {
     val kotlinStandardLibrary = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlin}"
+}
+
+object LibrariesDependencies {
+    val jodaTime = "joda-time:joda-time:${Versions.jodaTime}"
 }
 
 object AndroidDependencies {
