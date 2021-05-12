@@ -15,6 +15,7 @@ object Versions {
     val constraintlayout = "2.0.4"
     val kotest = "4.4.3"
     val jodaTime = "2.10.10"
+    val koin = "3.0.1"
 }
 
 object KotlinDependencies {
@@ -22,6 +23,8 @@ object KotlinDependencies {
 }
 
 object LibrariesDependencies {
+    val koinCore = "io.insert-koin:koin-core:${Versions.koin}"
+    val koinAndroid = "io.insert-koin:koin-android:${Versions.koin}"
     val jodaTime = "joda-time:joda-time:${Versions.jodaTime}"
 }
 

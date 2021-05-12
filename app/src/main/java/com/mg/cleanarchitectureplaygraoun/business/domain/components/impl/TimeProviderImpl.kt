@@ -7,6 +7,6 @@ import org.joda.time.DateTime
 class TimeProviderImpl : TimeProvider {
 
     override fun now(): AppDateTime = AppDateTime(
-        time = DateTime.now().millis
+        time = DateTime.now()
     )
 }
