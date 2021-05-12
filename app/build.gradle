@@ -53,4 +53,5 @@ dependencies {
     testImplementation UnitTestsDependencies.kotestRunner
     testImplementation UnitTestsDependencies.kotestFrameworkEngine
     testImplementation UnitTestsDependencies.kotestCore
+    testImplementation UnitTestsDependencies.mockk
 }
