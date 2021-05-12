@@ -1,5 +1,7 @@
 package com.mg.cleanarchitectureplaygraoun.di
 
-import org.koin.core.module.Module
+import com.mg.cleanarchitectureplaygraoun.business.domain.components.di.domainModule
 
-val appModules = listOf<Module>()
+val appModules = listOf(
+    domainModule
+)
