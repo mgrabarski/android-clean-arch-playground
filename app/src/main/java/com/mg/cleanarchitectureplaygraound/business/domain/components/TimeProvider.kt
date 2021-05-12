@@ -1,4 +1,4 @@
-package com.mg.cleanarchitectureplaygraoun.business.domain.components
+package com.mg.cleanarchitectureplaygraound.business.domain.components
 
 import org.joda.time.DateTime
 

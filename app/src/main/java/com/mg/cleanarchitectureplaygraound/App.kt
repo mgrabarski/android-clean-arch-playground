@@ -1,7 +1,7 @@
-package com.mg.cleanarchitectureplaygraoun
+package com.mg.cleanarchitectureplaygraound
 
 import android.app.Application
-import com.mg.cleanarchitectureplaygraoun.di.appModules
+import com.mg.cleanarchitectureplaygraound.di.appModules
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
 import org.koin.core.context.startKoin

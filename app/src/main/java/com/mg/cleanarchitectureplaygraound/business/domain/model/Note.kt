@@ -1,4 +1,4 @@
-package com.mg.cleanarchitectureplaygraoun.business.domain.model
+package com.mg.cleanarchitectureplaygraound.business.domain.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

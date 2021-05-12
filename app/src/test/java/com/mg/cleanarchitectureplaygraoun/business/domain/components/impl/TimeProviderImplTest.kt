@@ -1,5 +1,6 @@
 package com.mg.cleanarchitectureplaygraoun.business.domain.components.impl
 
+import com.mg.cleanarchitectureplaygraound.business.domain.components.impl.TimeProviderImpl
 import io.kotest.core.spec.style.FunSpec
 import io.kotest.matchers.longs.shouldBeGreaterThan
 

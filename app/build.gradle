@@ -8,7 +8,7 @@ android {
     compileSdkVersion BuildConfigVersions.compileSdkVersion
 
     defaultConfig {
-        applicationId "com.mg.cleanarchitectureplaygraoun"
+        applicationId "com.mg.cleanarchitectureplaygraound"
         minSdkVersion BuildConfigVersions.minSdkVersion
         targetSdkVersion BuildConfigVersions.targetSdkVersion
         versionCode BuildConfigVersions.versionCode
