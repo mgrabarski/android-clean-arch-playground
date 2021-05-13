@@ -1,7 +1,7 @@
-package com.mg.cleanarchitectureplaygraound.business.domain.model.factories
+package com.mg.cleanarchitectureplaygraound.business.domain.data.model.factories
 
 import com.mg.cleanarchitectureplaygraound.business.domain.components.TimeProvider
-import com.mg.cleanarchitectureplaygraound.business.domain.model.Note
+import com.mg.cleanarchitectureplaygraound.business.domain.data.model.Note
 import com.mg.cleanarchitectureplaygraound.business.domain.types.Id
 
 class NoteFactory(

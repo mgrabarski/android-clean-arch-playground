@@ -1,4 +1,4 @@
-package com.mg.cleanarchitectureplaygraound.business.domain.model
+package com.mg.cleanarchitectureplaygraound.business.domain.data.model
 
 import android.os.Parcelable
 import com.mg.cleanarchitectureplaygraound.business.domain.types.Id

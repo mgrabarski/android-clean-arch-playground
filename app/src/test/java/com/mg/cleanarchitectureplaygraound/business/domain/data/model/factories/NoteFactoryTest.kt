@@ -1,4 +1,4 @@
-package com.mg.cleanarchitectureplaygraound.business.domain.model.factories
+package com.mg.cleanarchitectureplaygraound.business.domain.data.model.factories
 
 import com.mg.cleanarchitectureplaygraound.business.domain.components.TimeProvider
 import io.kotest.core.spec.style.FunSpec
