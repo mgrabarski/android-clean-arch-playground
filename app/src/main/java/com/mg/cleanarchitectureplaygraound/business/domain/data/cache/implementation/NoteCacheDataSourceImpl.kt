@@ -3,6 +3,7 @@ package com.mg.cleanarchitectureplaygraound.business.domain.data.cache.implement
 import com.mg.cleanarchitectureplaygraound.business.domain.data.cache.abstraction.NoteCacheDataSource
 import com.mg.cleanarchitectureplaygraound.business.domain.data.model.Note
 import com.mg.cleanarchitectureplaygraound.business.domain.types.Id
+import com.mg.cleanarchitectureplaygraound.framework.datasource.cache.service.NoteDaoService
 
 class NoteCacheDataSourceImpl(
     private val noteDaoService: NoteDaoService

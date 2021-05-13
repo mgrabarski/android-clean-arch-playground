@@ -3,9 +3,10 @@ package com.mg.cleanarchitectureplaygraound.business.domain.data.network.impleme
 import com.mg.cleanarchitectureplaygraound.business.domain.data.model.Note
 import com.mg.cleanarchitectureplaygraound.business.domain.data.network.abstraction.NetworkDataSource
 import com.mg.cleanarchitectureplaygraound.business.domain.types.Id
+import com.mg.cleanarchitectureplaygraound.framework.datasource.network.service.NoteWebserviceService
 
 class NetworkDataSourceImpl(
-    private val firestoreService: NoteFirestoreService
+    private val webserviceService: NoteWebserviceService
 ) : NetworkDataSource {
 
     override suspend fun insertOrUpdateNote(note: Note) {

@@ -1,0 +1,5 @@
+package com.mg.cleanarchitectureplaygraound.framework.datasource.network.service.impl
+
+import com.mg.cleanarchitectureplaygraound.framework.datasource.network.service.NoteWebserviceService
+
+class NoteFirestoreServiceImpl : NoteWebserviceService
