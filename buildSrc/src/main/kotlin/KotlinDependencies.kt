@@ -17,10 +17,14 @@ object Versions {
     val jodaTime = "2.10.10"
     val koin = "3.0.1"
     val mockk = "1.11.0"
+    val coroutines = "1.5.0-RC"
+    val lifecycle = "2.3.1"
 }
 
 object KotlinDependencies {
     val kotlinStandardLibrary = "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${Versions.kotlin}"
+    val kotlinCoroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}"
+    val kotlinCoroutinesAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}"
 }
 
 object LibrariesDependencies {
@@ -34,6 +38,7 @@ object AndroidDependencies {
     val appCompat = "androidx.appcompat:appcompat:${Versions.appCompat}"
     val material = "com.google.android.material:material:${Versions.materialComponents}"
     val constraintlayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintlayout}"
+    val lifecycleLiveDataKtx = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifecycle}"
 }
 
 object UnitTestsDependencies {

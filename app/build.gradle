@@ -40,11 +40,14 @@ android.testOptions {
 
 dependencies {
     implementation KotlinDependencies.kotlinStandardLibrary
+    implementation KotlinDependencies.kotlinCoroutines
+    implementation KotlinDependencies.kotlinCoroutinesAndroid
 
     implementation AndroidDependencies.coreKtx
     implementation AndroidDependencies.appCompat
     implementation AndroidDependencies.material
     implementation AndroidDependencies.constraintlayout
+    implementation AndroidDependencies.lifecycleLiveDataKtx
 
     implementation LibrariesDependencies.koinCore
     implementation LibrariesDependencies.koinAndroid
