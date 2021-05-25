@@ -17,7 +17,7 @@ object Versions {
     val jodaTime = "2.10.10"
     val koin = "3.0.1"
     val mockk = "1.11.0"
-    val coroutines = "1.5.0-RC"
+    val coroutines = "1.5.0"
     val lifecycle = "2.3.1"
 }
 
@@ -46,4 +46,5 @@ object UnitTestsDependencies {
     val kotestFrameworkEngine = "io.kotest:kotest-framework-engine-jvm:${Versions.kotest}"
     val kotestCore = "io.kotest:kotest-assertions-core:${Versions.kotest}"
     val mockk = "io.mockk:mockk:${Versions.mockk}"
+    val kotlinCoroutines = "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.coroutines}"
 }

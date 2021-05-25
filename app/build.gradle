@@ -57,4 +57,5 @@ dependencies {
     testImplementation UnitTestsDependencies.kotestFrameworkEngine
     testImplementation UnitTestsDependencies.kotestCore
     testImplementation UnitTestsDependencies.mockk
+    testImplementation UnitTestsDependencies.kotlinCoroutines
 }
