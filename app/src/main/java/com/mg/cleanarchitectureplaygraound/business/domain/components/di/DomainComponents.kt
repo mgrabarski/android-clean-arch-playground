@@ -4,6 +4,7 @@ import com.mg.cleanarchitectureplaygraound.business.domain.components.DateFormat
 import com.mg.cleanarchitectureplaygraound.business.domain.components.TimeProvider
 import com.mg.cleanarchitectureplaygraound.business.domain.components.impl.DateFormatterJodaTime
 import com.mg.cleanarchitectureplaygraound.business.domain.components.impl.TimeProviderImpl
+import com.mg.cleanarchitectureplaygraound.business.interactors.notelist.InsertNewNote
 import org.joda.time.format.DateTimeFormat
 import org.joda.time.format.DateTimeFormatter
 import org.koin.dsl.module
@@ -11,6 +12,8 @@ import org.koin.dsl.module
 val domainModule = module {
     factory<TimeProvider> { TimeProviderImpl(get()) }
     factory<DateFormatter> { DateFormatterJodaTime(FORMAT_DETAILED_DATE, FORMAT_SHORTER_DATE) }
+
+    factory { InsertNewNote(get(), get(), get()) }
 }
 
 val FORMAT_DETAILED_DATE: DateTimeFormatter = DateTimeFormat.forPattern("dd-MM-yyyy HH:mm:ss")
